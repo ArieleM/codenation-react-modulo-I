@@ -1,0 +1,155 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	box-sizing: border-box;
+	/* border: 1px solid grey; */
+}
+body{
+	font-family: "Montserrat";
+	font-size: 12px;
+}
+.header{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 90vh;
+	width: 100%;
+	background-image: url(../img/capa-madmax2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.navbar{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.navbar img{
+	width: 110px;
+	height: 45px;
+}
+.navbar-menu{
+	display: flex;
+	cursor: pointer;
+}
+.navbar-menu ul{
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+.navbar-menu li{
+	display: flex;
+	margin: 0 30px;
+}
+.navbar-menu li:hover{
+	color: #BC9A1D;
+}
+.navbar-profile{
+	display: flex;
+	align-items: center;
+}
+.navbar-profile img{
+	border-radius: 100%;
+	width: 45px;
+	margin-right: 15px;
+}
+.navbar-menu a{
+	display: flex;
+	align-items: center;
+}
+/* Menu Header */
+.navbar-header{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+
+}
+.navbar-header h1{
+	padding: 10px 0;
+	font-size: 65px;
+	margin: 0;
+}
+#player{
+	padding: 15px 45px;
+	background-color: #E7CA3E;
+	width: 200px;
+	border-radius: 40px;
+	text-decoration: none;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 0;
+}
+.navbar-header div > p{
+	color: white;
+
+}
+.navbar-genero{
+	margin: 15px 0;
+}
+.navbar-genero a{
+	margin-right: 15px;
+	text-decoration: none;
+}
+header h1, .navbar-menu li, .navbar-genero a{
+	text-transform: uppercase;
+	color: white;
+}
+.container{
+	display: flex;
+	width: 980px;
+	justify-content: space-between;
+}
+/* Main */
+main{
+	background-color: #F2F2F2;
+
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 30px 0;
+}
+#menu-inf{
+	color: #E7CA3E;
+	background-color: sandybrown;
+	font-size: 14px;
+	font-weight: bold;
+}
+#menu-inf:hover{
+	border-bottom: #E7CA3E ;
+}
+.catalogo{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+.card{
+	width: 230px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow:black, (0,0,1,.1);
+	margin: 10px 0;
+}
+.card img{
+	width: 100%;
+}
+/* Footer */
+.social-midias{
+	display: flex;
+	align-items: center;
+}
+footer, header, main{
+	display: flex;
+	justify-content: center;
+}
