@@ -1,2 +1,2 @@
 # codenation-react-modulo-I
-[](./image.png)
+![](./image.png)
