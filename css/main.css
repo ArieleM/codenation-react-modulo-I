@@ -119,14 +119,32 @@ main{
 	align-items: center;
 	margin: 30px 0;
 }
+.menu-informacao{
+	width: 100%;
+	height: 5vh;
+	border-bottom: rgb(223, 220, 220) 1px solid;
+	margin-bottom: 15px;
+}
+
 #menu-inf{
+	display: flex;
 	color: #E7CA3E;
-	background-color: sandybrown;
 	font-size: 14px;
 	font-weight: bold;
 }
 #menu-inf:hover{
 	border-bottom: #E7CA3E ;
+}
+#lista{
+	margin: auto;	
+}
+#lista li{
+	color: #E4BB23;
+	font-size: 12px;
+	font-weight: bold;
+}
+#list li:hover{
+	border-bottom: 1px solid #E7CA3E;
 }
 .catalogo{
 	display: flex;
@@ -136,20 +154,71 @@ main{
 }
 .card{
 	width: 230px;
+	height: 450px;
 	background-color: white;
 	border-radius: 10px;
-	box-shadow:black, (0,0,1,.1);
+	box-shadow:2px 2px rgb(228, 226, 226);
 	margin: 10px 0;
+}
+.card:hover{
 }
 .card img{
 	width: 100%;
+	border-radius: 5px;
+}
+.card h3{
+	text-transform: uppercase;
+	margin-left: 10px;
+}
+.card a{
+	text-decoration: none;
+	margin-left: 10px;
+	color:#FFE395;
+}
+.card a:hover{
+	text-decoration: ;
+}
+.card-footer{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 15px;
+}
+.card-footer i{
+	color: rgb(201, 195, 195);
+}
+.card-footer i:hover{
+	color: red;
+}
+.card-footer p{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px 0 10px 0;
 }
 /* Footer */
 .social-midias{
 	display: flex;
 	align-items: center;
+	width: 200px;
+	justify-content: space-around;
+}
+.social-midias a{
+	color: rgb(201, 195, 195);
 }
 footer, header, main{
 	display: flex;
 	justify-content: center;
+}
+footer{
+	padding: 30px 0;
+}
+#tw:hover{
+	color: #55ACEE;
+}
+#fb:hover{
+	color: blue;
+}
+#ig:hover{
+	color: red;
 }
